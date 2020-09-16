@@ -1,5 +1,9 @@
 {
   "chromeWebSecurity": false,
   "projectId": "zextez",
-  "defaultCommandTimeout": 8000
+  "defaultCommandTimeout": 8000,
+  "reporter":"mochawesome",
+  "retries":{
+    "runMode" : 1
+  }
 }

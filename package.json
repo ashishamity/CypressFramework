@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "headTest": "npx cypress run test-- --headed"
   },
   "author": "Ashish Tiwari",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^4.8.0"
+    "cypress": "^4.8.0",
+    "mocha": "^8.1.3"
+  },
+  "dependencies": {
+    "mochawesome": "^6.1.1"
   }
 }
